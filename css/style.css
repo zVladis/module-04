@@ -5,7 +5,13 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.clearfix::after {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.clearfix::before {
   display: table;
   content: "";
   clear: both;
@@ -19,6 +25,7 @@ body {
 /* HEADER========================================================= */
 
 .logo {
+  margin-top: 40px;
   text-decoration: none;
   color: #555252;
   font-family: "Roboto";
@@ -37,21 +44,23 @@ body {
   font-weight: 400;
 }
 
-/* LOGO---------------------------- */
+/* NAV---------------------------- */
 
 .nav li {
-  margin-top: 6px;
+  margin: 0;
+  padding: 0;
+  /* margin-top: 6px; */
   list-style-type: none;
   margin-right: 34px;
   float: right;
 }
 .nav-link {
+  margin-top: 45px;
   text-decoration: none;
 }
 
 .link-item {
-  padding: 0;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   color: #0f0101;
   font-family: "Open Sans";
   font-size: 14px;
@@ -103,7 +112,7 @@ li:first-child {
   width: 255px;
   height: 300px;
   background-color: #e9f0fd;
-  float: right;
+  float: left;
 }
 
 .discription-card {
@@ -132,8 +141,10 @@ li:first-child {
 }
 
 .card:nth-child(-n + 7) {
-  margin-left: 22px;
+  margin-right: 22px;
 }
 .card:nth-child(-n + 4) {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
+
+/* section news-------------------------------------------------- */
