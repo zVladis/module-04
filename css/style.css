@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* HEADER========================================================= */
+
+.logo {
+  text-decoration: none;
+  color: #555252;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #1abc9c;
+  font-family: "Roboto";
+  font-weight: 700;
+  float: left;
+}
+
+.logo-latter {
+  color: #5a5757;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+/* LOGO---------------------------- */
+
+.nav li {
+  margin-top: 6px;
+  list-style-type: none;
+  margin-right: 34px;
+  float: right;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.link-item {
+  padding: 0;
+  margin-top: 10px;
+  color: #0f0101;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+li:first-child {
+  margin-right: 0;
+}
+.link-item:hover {
+  color: #1abc9c;
+  cursor: pointer;
+}
+/* H 1 -------------------------------------------------------------- */
+.product-title {
+  text-align: center;
+  margin-top: 100px;
+  color: #515151;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.product-title::after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+/* SECTION-------------------------------------------------------- */
+.section-product {
+  margin-top: 56px;
+}
+
+.cards {
+  display: inline;
+  margin: 0;
+}
+
+.card {
+  list-style-type: none;
+  width: 255px;
+  height: 300px;
+  background-color: #e9f0fd;
+  float: right;
+}
+
+.discription-card {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  width: 240px;
+  height: 40px;
+  background-color: #323232;
+  margin: 0;
+  padding-top: 11px;
+  padding-left: 15px;
+}
+
+.price-card {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-left: 90px;
+}
+
+.card:nth-child(-n + 7) {
+  margin-left: 22px;
+}
+.card:nth-child(-n + 4) {
+  margin-bottom: 40px;
+}
