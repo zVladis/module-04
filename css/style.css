@@ -103,7 +103,9 @@ li:first-child {
 }
 
 /* SECTION-------------------------------------------------------- */
-
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
 .card {
   margin: 0;
   margin-bottom: 30px;
@@ -200,13 +202,11 @@ li:first-child {
 }
 .title-news {
   width: 301px;
-
   color: #555252;
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
-  margin-bottom: 20px;
 }
 
 .title-news::after {
@@ -215,6 +215,7 @@ li:first-child {
   width: 136px;
   height: 3px;
   background-color: #4ec6ab;
+  margin-bottom: 10px;
 }
 
 .descript-news {
@@ -222,16 +223,17 @@ li:first-child {
   margin-bottom: 10px;
   padding-top: 15px;
   width: 335px;
-
   color: #555252;
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
 }
+
 .button {
   margin: 0;
 }
+
 .button-news {
   width: 160px;
   height: 51px;
