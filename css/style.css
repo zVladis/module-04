@@ -4,6 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
+
 a {
   text-decoration: none;
 }
@@ -58,6 +59,7 @@ a {
   margin-right: 34px;
   float: right;
 }
+
 .nav-link {
   margin-top: 15px;
   text-decoration: none;
@@ -75,10 +77,12 @@ a {
 li:first-child {
   margin-right: 0;
 }
+
 .link-item:hover {
   color: #1abc9c;
   cursor: pointer;
 }
+
 /* H 1 -------------------------------------------------------------- */
 .product-title {
   text-align: center;
@@ -103,9 +107,11 @@ li:first-child {
 }
 
 /* SECTION-------------------------------------------------------- */
-.card:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+.card-bg:hover {
+  background-color: rgba(26, 188, 156, 0.5);
+
 }
+
 .card {
   margin: 0;
   margin-bottom: 30px;
@@ -113,10 +119,12 @@ li:first-child {
   height: 322px;
   float: left;
 }
+
 .card-link {
   margin: 0;
   padding: 0;
 }
+
 .card-img {
   display: block;
 }
@@ -157,9 +165,11 @@ li:first-child {
   height: 40px;
   background-color: #323232;
 }
+
 .card:last-child {
   margin: 0;
 }
+
 .card:not(:nth-child(5n)) {
   margin-right: 30px;
 }
@@ -200,6 +210,7 @@ li:first-child {
 .wrapper:last-child {
   margin: 0;
 }
+
 .title-news {
   width: 301px;
   color: #555252;
@@ -214,20 +225,23 @@ li:first-child {
   display: block;
   width: 136px;
   height: 3px;
+  margin-top: 14px;
   background-color: #4ec6ab;
-  margin-bottom: 10px;
+
 }
 
 .descript-news {
   margin: 0;
-  margin-bottom: 10px;
-  padding-top: 15px;
+
   width: 335px;
   color: #555252;
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
+  letter-spacing: -0.28px;
+  margin-bottom: 10px;
+  padding-top: 20px;
 }
 
 .button {
@@ -238,6 +252,7 @@ li:first-child {
   width: 160px;
   height: 51px;
   background-color: #4ec6ab;
+  border-radius: 7px;
 }
 
 .btn-link {
