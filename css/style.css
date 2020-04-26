@@ -33,19 +33,16 @@ a {
   margin-top: 40px;
   text-decoration: none;
   color: #555252;
-  font-family: "Roboto";
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
   color: #1abc9c;
-  font-family: "Roboto";
   font-weight: 700;
   float: left;
 }
 
 .logo-latter {
   color: #5a5757;
-  font-family: "Roboto";
   font-weight: 400;
 }
 
@@ -68,7 +65,6 @@ a {
 .link-item {
   /* margin-top: 10px; */
   color: #0f0101;
-  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
@@ -88,7 +84,6 @@ li:first-child {
   text-align: center;
   margin-top: 100px;
   color: #515151;
-  font-family: "Roboto";
   font-size: 48px;
   font-weight: 700;
   line-height: 32px;
@@ -109,7 +104,6 @@ li:first-child {
 /* SECTION-------------------------------------------------------- */
 .card-bg:hover {
   background-color: rgba(26, 188, 156, 0.5);
-
 }
 
 .card {
@@ -133,7 +127,6 @@ li:first-child {
   display: inline-block;
   margin: 0;
   color: #ffffff;
-  font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
@@ -152,7 +145,6 @@ li:first-child {
   margin: 0;
   margin-left: 98px;
   color: #ffffff;
-  font-family: "Roboto";
   font-size: 18px;
   font-weight: 700;
   line-height: 32px;
@@ -184,7 +176,6 @@ li:first-child {
   text-align: center;
   margin-top: 100px;
   color: #515151;
-  font-family: "Roboto";
   font-size: 48px;
   font-weight: 700;
   line-height: 32px;
@@ -214,7 +205,6 @@ li:first-child {
 .title-news {
   width: 301px;
   color: #555252;
-  font-family: "Open Sans";
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
@@ -227,7 +217,6 @@ li:first-child {
   height: 3px;
   margin-top: 14px;
   background-color: #4ec6ab;
-
 }
 
 .descript-news {
@@ -235,7 +224,6 @@ li:first-child {
 
   width: 335px;
   color: #555252;
-  font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -259,7 +247,6 @@ li:first-child {
   width: 74px;
   height: 14px;
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
