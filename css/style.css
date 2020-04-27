@@ -103,7 +103,6 @@ li:first-child {
 
 /* SECTION-------------------------------------------------------- */
 .card-bg:hover {
-  /* background-color: rgba(26, 188, 156, 0.5); */
 }
 
 .card {
@@ -113,13 +112,13 @@ li:first-child {
   height: 322px;
   float: left;
 }
+.card:hover .link-item {
+  background-color: rgba(93, 235, 223, 0.7);
+}
 
 .card-link {
   margin: 0;
   padding: 0;
-}
-.card:hover {
-  box-shadow: 0px 4px 11px 0px rgba(0, 245, 204, 0.5);
 }
 
 .card-img {
@@ -142,17 +141,20 @@ li:first-child {
 .link-item {
   margin: 0;
   display: block;
+  padding-bottom: 4px;
 }
 
 .price-card {
   margin: 0;
-  margin-left: 98px;
+  margin-left: 80px;
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
   line-height: 32px;
   text-transform: uppercase;
   text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 8px 12.07px;
 }
 
 .card-bg {
